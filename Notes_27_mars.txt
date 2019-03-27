@@ -1,0 +1,9 @@
+Un processus est dit self-exciting si l'intensité lambda(.) dépend de t mais aussi de tout le passé du processus. Exemple : tremblements de terre, proba de répliques très forte après un tremblement --> dépend du passé récent
+
+Hawkes process, définition :
+- N(0) = 0
+- lambda(t) est un processus stochastique continu à gauche donné par l'intégrale de Stieltjes
+- P(N(t + h) - N(t) = 1 | F_t-^N) = lambda(t) * h + o(h)
+- P(N(t + h) - N(t) >= 2 | F_t-^N) = o(h)
+
+Probas à étudier : essayer de reproduire le calcul de la prime (espérance), calculer u tel que espérance de R_T(u) = 0, regarder si espérance du Hawkes connues, rregarder influence de alpha et beta ie comment se comporte la prime par rapport à ces deux paramètres, approcher espérance par Monte Carlo --> qu'est-ce qui se passe si on remplace le Poisson par Hawkes dans Cramer-Lundberg ?  
