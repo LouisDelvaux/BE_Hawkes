@@ -4,4 +4,5 @@
 .ipynb_checkpoints/BE_Hawkes_English_Version-checkpoint.ipynb
 *.rds
 *.zip
-*.ipynb
+.ipynb_checkpoints/Explo_dataset_earthquakes-checkpoint.ipynb
+.ipynb_checkpoints/BE_Hawkes_Charnay_Delvaux_Yazzourh-checkpoint.ipynb
